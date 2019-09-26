@@ -10,17 +10,19 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.os.Build;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
+import androidx.core.view.ViewCompat;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
+
 
 /**
- * Created by xiaolp on 2018/8/23
+ * Created by mac.xiao on 2018/8/23
  * description:
  */
 public class ShapeIndicatorView extends View implements TabLayout.OnTabSelectedListener, ViewPager.OnPageChangeListener {
